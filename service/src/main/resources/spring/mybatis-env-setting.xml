@@ -8,7 +8,7 @@
     <!-- 在null时也调用 setter,适应于返回Map,3.2版本以上可用 -->
     <setting name="callSettersOnNulls" value="true"/>
   </settings>
-  <plugins>
-    <plugin interceptor="com.koolearn.framework.mybatis.datasource.plugin.SqlIntercept"/>
-  </plugins>
+  <!--<plugins>-->
+    <!--<plugin interceptor="com.koolearn.framework.mybatis.datasource.plugin.SqlIntercept"/>-->
+  <!--</plugins>-->
 </configuration>
